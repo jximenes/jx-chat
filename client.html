@@ -1,0 +1,19 @@
+<!doctype html>
+<html ng-app="mainapp">
+	<head>
+		<script src="bower_components/sockjs-client/dist/sockjs.min.js"></script>
+		<script src="bower_components/angular/angular.min.js"></script>
+		<script src="bower_components/angular-sockjs/src/index.js"></script>
+
+		<script src="app/jx-chat.module.js"></script>
+		<script src="app/jx-chat.factory.js"></script>
+		<script src="app/jx-chat.directive.js"></script>
+		<script src="app/main.controller.js"></script>
+
+		<link rel="stylesheet" href="app/css/main.css" type="text/css"></link>
+	</head>
+	<body ng-controller="mainController">
+	    <h1>angular sockjs chat</h1>
+		<chat></chat>
+	</body>
+</html>

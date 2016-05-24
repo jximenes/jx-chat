@@ -1,0 +1,23 @@
+{
+  "name": "chat",
+  "description": "",
+  "main": "",
+  "authors": [
+    "João Ximenes"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "^1.5.5",
+    "angular-sockjs": "^0.1.0",
+    "sockjs-client": "^1.1.1"
+  }
+}
