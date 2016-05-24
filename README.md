@@ -1,4 +1,4 @@
-# AngularJS and Node.js text chat
+# AngularJS and Node.js text chat using sockjs
 
 ### Dependencies
     
